@@ -1,0 +1,20 @@
+body {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+h1 {
+	margin: 0 auto;
+}
+.lessons {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.lesson {
+	font-size: 24px;
+	border: 2px solid blue;
+	padding: 10px;
+	border-radius: 20px;
+	background-color: #08f8bc;
+}
