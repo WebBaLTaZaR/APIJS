@@ -1,0 +1,17 @@
+.modalWindow {
+	width: 200px;
+	height: 200px;
+	margin: 200px auto;
+	border: 2px solid red;
+	display: flex;
+	opacity: 1;
+	visibility: visible;
+	transition: opacity 0.3s ease;
+}
+.hidden {
+	opacity: 0;
+	visibility: hidden;
+}
+.closed {
+	margin: auto;
+}
