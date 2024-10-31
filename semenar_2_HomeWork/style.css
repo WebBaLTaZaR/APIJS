@@ -1,0 +1,44 @@
+button {
+	all: unset;
+	cursor: pointer;
+}
+.container {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	border: 2px black solid;
+}
+.left {
+	position: absolute;
+	top: 45%;
+	left: 0;
+	width: 80px;
+	height: 80px;
+}
+
+.right {
+	position: absolute;
+	top: 45%;
+	left: 84%;
+	width: 80px;
+	height: 80px;
+}
+.svitchers {
+	position: absolute;
+	top: 94%;
+	left: 40%;
+}
+.content img {
+	position: absolute;
+	opacity: 1;
+	transition: opacity 0.3s ease;
+	width: 500px;
+	height: 500px;
+}
+.hidden {
+	opacity: 0;
+	visibility: hidden;
+	transition:
+		opacity 0.3s ease,
+		visibility 0s 0.3s;
+}
